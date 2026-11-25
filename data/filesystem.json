@@ -1,0 +1,742 @@
+{
+  "s001": {
+    "files": {
+      "scans/intake-014.tif": "Synthetic content for scans/intake-014.tif\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "scans/intake-014.tif",
+        "verified/retention-02/intake-014.tif"
+      ]
+    }
+  },
+  "s002": {
+    "files": {
+      "scans/lab-inventory.png": "Synthetic content for scans/lab-inventory.png\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-08/lab-inventory.png": "Synthetic content for scans/lab-inventory.png\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "scans/lab-inventory.png",
+        "verified/retention-08/lab-inventory.png"
+      ]
+    }
+  },
+  "s003": {
+    "files": {
+      "packages/mobile-test.zip": "Synthetic content for packages/mobile-test.zip\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-03/mobile-test.zip": "Synthetic content for packages/mobile-test.zip\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "packages/mobile-test.zip",
+        "verified/handoff-03/mobile-test.zip"
+      ]
+    }
+  },
+  "s004": {
+    "files": {
+      "handoff/release-notes.txt": "Synthetic content for handoff/release-notes.txt\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-06/release-notes.txt": "Synthetic content for handoff/release-notes.txt\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/release-notes.txt",
+        "verified/handoff-06/release-notes.txt"
+      ]
+    }
+  },
+  "s005": {
+    "files": {
+      "bundles/installer.tar": "Synthetic content for bundles/installer.tar\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "bundles/installer.tar",
+        "verified/handoff-09/installer.tar"
+      ]
+    }
+  },
+  "s006": {
+    "files": {
+      "assets/print-logo.png": "Synthetic content for assets/print-logo.png\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-06/print-logo.png": "Synthetic content for assets/print-logo.png\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-06/print-logo.png"
+      ]
+    }
+  },
+  "s007": {
+    "files": {
+      "handoff/figures.pdf": "Synthetic content for handoff/figures.pdf\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/figures.pdf",
+        "verified/handoff-10/figures.pdf"
+      ]
+    }
+  },
+  "s008": {
+    "files": {
+      "backups/glossary.sqlite": "Synthetic content for backups/glossary.sqlite\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-09/glossary.sqlite": "Synthetic content for backups/glossary.sqlite\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "backups/glossary.sqlite",
+        "verified/retention-09/glossary.sqlite"
+      ]
+    }
+  },
+  "s009": {
+    "files": {
+      "exports/march-orders.csv": "Synthetic content for exports/march-orders.csv\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-01/march-orders.csv": "Synthetic content for exports/march-orders.csv\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "exports/march-orders.csv",
+        "verified/retention-01/march-orders.csv"
+      ]
+    }
+  },
+  "s010": {
+    "files": {
+      "exports/meeting-votes.json": "Synthetic content for exports/meeting-votes.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "exports/meeting-votes.json",
+        "verified/retention-10/meeting-votes.json"
+      ]
+    }
+  },
+  "s011": {
+    "files": {
+      "recordings/briefing.flac": "Synthetic content for recordings/briefing.flac\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-03/briefing.flac": "Synthetic content for recordings/briefing.flac\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "recordings/briefing.flac",
+        "verified/retention-03/briefing.flac"
+      ]
+    }
+  },
+  "s012": {
+    "files": {
+      "exports/event-labels.pdf": "Synthetic content for exports/event-labels.pdf\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-05/event-labels.pdf": "Synthetic content for exports/event-labels.pdf\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "exports/event-labels.pdf",
+        "verified/handoff-05/event-labels.pdf"
+      ]
+    }
+  },
+  "s013": {
+    "files": {
+      "inputs/calendar.ics": "Synthetic content for inputs/calendar.ics\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-10/calendar.ics": "Synthetic content for inputs/calendar.ics\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-10/calendar.ics"
+      ]
+    }
+  },
+  "s014": {
+    "files": {
+      "queues/nightly-manifest.json": "Synthetic content for queues/nightly-manifest.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-07/nightly-manifest.json": "Synthetic content for queues/nightly-manifest.json\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "queues/nightly-manifest.json",
+        "verified/handoff-07/nightly-manifest.json"
+      ]
+    }
+  },
+  "s015": {
+    "files": {
+      "conf/filters.toml": "Synthetic content for conf/filters.toml\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-07/filters.toml": "Synthetic content for conf/filters.toml\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "conf/filters.toml"
+      ]
+    }
+  },
+  "s016": {
+    "files": {
+      "handoff/pick-list.csv": "Synthetic content for handoff/pick-list.csv\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/pick-list.csv",
+        "verified/handoff-02/pick-list.csv"
+      ]
+    }
+  },
+  "s017": {
+    "files": {
+      "templates/summary.txt": "Synthetic content for templates/summary.txt\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-05/summary.txt": "Synthetic content for templates/summary.txt\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "templates/summary.txt"
+      ]
+    }
+  },
+  "s018": {
+    "files": {
+      "handoff/figures.pdf": "Synthetic content for handoff/figures.pdf\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-10/figures.pdf": "Synthetic content for handoff/figures.pdf\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/figures.pdf",
+        "verified/handoff-10/figures.pdf"
+      ]
+    }
+  },
+  "s019": {
+    "files": {
+      "handoff/subtitles.srt": "Synthetic content for handoff/subtitles.srt\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/subtitles.srt",
+        "verified/handoff-08/subtitles.srt"
+      ]
+    }
+  },
+  "s020": {
+    "files": {
+      "recordings/briefing.flac": "Synthetic content for recordings/briefing.flac\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "recordings/briefing.flac",
+        "verified/retention-03/briefing.flac"
+      ]
+    }
+  },
+  "s021": {
+    "files": {
+      "schemas/ingest-v1.json": "Synthetic content for schemas/ingest-v1.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-03/ingest-v1.json": "Synthetic content for schemas/ingest-v1.json\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "schemas/ingest-v1.json"
+      ]
+    }
+  },
+  "s022": {
+    "files": {
+      "backups/glossary.sqlite": "Synthetic content for backups/glossary.sqlite\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "backups/glossary.sqlite",
+        "verified/retention-09/glossary.sqlite"
+      ]
+    }
+  },
+  "s023": {
+    "files": {
+      "schemas/ingest-v1.json": "Synthetic content for schemas/ingest-v1.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-03/ingest-v1.json": "Synthetic content for schemas/ingest-v1.json\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-03/ingest-v1.json"
+      ]
+    }
+  },
+  "s024": {
+    "files": {
+      "bundles/installer.tar": "Synthetic content for bundles/installer.tar\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-09/installer.tar": "Synthetic content for bundles/installer.tar\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "bundles/installer.tar",
+        "verified/handoff-09/installer.tar"
+      ]
+    }
+  },
+  "s025": {
+    "files": {
+      "drafts/survey-notes.md": "Synthetic content for drafts/survey-notes.md\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "drafts/survey-notes.md",
+        "verified/retention-05/survey-notes.md"
+      ]
+    }
+  },
+  "s026": {
+    "files": {
+      "handoff/release-notes.txt": "Synthetic content for handoff/release-notes.txt\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/release-notes.txt",
+        "verified/handoff-06/release-notes.txt"
+      ]
+    }
+  },
+  "s027": {
+    "files": {
+      "handoff/pick-list.csv": "Synthetic content for handoff/pick-list.csv\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-02/pick-list.csv": "Synthetic content for handoff/pick-list.csv\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/pick-list.csv",
+        "verified/handoff-02/pick-list.csv"
+      ]
+    }
+  },
+  "s028": {
+    "files": {
+      "drafts/survey-notes.md": "Synthetic content for drafts/survey-notes.md\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-05/survey-notes.md": "Synthetic content for drafts/survey-notes.md\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "drafts/survey-notes.md",
+        "verified/retention-05/survey-notes.md"
+      ]
+    }
+  },
+  "s029": {
+    "files": {
+      "assets/light.css": "Synthetic content for assets/light.css\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-02/light.css": "Synthetic content for assets/light.css\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "assets/light.css"
+      ]
+    }
+  },
+  "s030": {
+    "files": {
+      "exports/meeting-votes.json": "Synthetic content for exports/meeting-votes.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-10/meeting-votes.json": "Synthetic content for exports/meeting-votes.json\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "exports/meeting-votes.json",
+        "verified/retention-10/meeting-votes.json"
+      ]
+    }
+  },
+  "s031": {
+    "files": {
+      "handoff/site-map.xml": "Synthetic content for handoff/site-map.xml\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-04/site-map.xml": "Synthetic content for handoff/site-map.xml\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/site-map.xml",
+        "verified/handoff-04/site-map.xml"
+      ]
+    }
+  },
+  "s032": {
+    "files": {
+      "tables/locale-map.csv": "Synthetic content for tables/locale-map.csv\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-04/locale-map.csv": "Synthetic content for tables/locale-map.csv\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-04/locale-map.csv"
+      ]
+    }
+  },
+  "s033": {
+    "files": {
+      "reports/q2-receipts.pdf": "Synthetic content for reports/q2-receipts.pdf\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "reports/q2-receipts.pdf",
+        "verified/retention-04/q2-receipts.pdf"
+      ]
+    }
+  },
+  "s034": {
+    "files": {
+      "tables/locale-map.csv": "Synthetic content for tables/locale-map.csv\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-04/locale-map.csv": "Synthetic content for tables/locale-map.csv\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "tables/locale-map.csv"
+      ]
+    }
+  },
+  "s035": {
+    "files": {
+      "exports/event-labels.pdf": "Synthetic content for exports/event-labels.pdf\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "exports/event-labels.pdf",
+        "verified/handoff-05/event-labels.pdf"
+      ]
+    }
+  },
+  "s036": {
+    "files": {
+      "scans/intake-014.tif": "Synthetic content for scans/intake-014.tif\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-02/intake-014.tif": "Synthetic content for scans/intake-014.tif\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "scans/intake-014.tif",
+        "verified/retention-02/intake-014.tif"
+      ]
+    }
+  },
+  "s037": {
+    "files": {
+      "packages/mobile-test.zip": "Synthetic content for packages/mobile-test.zip\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "packages/mobile-test.zip",
+        "verified/handoff-03/mobile-test.zip"
+      ]
+    }
+  },
+  "s038": {
+    "files": {
+      "handoff/review-board.json": "Synthetic content for handoff/review-board.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/review-board.json",
+        "verified/handoff-01/review-board.json"
+      ]
+    }
+  },
+  "s039": {
+    "files": {
+      "exports/translation-memory.tmx": "Synthetic content for exports/translation-memory.tmx\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-06/translation-memory.tmx": "Synthetic content for exports/translation-memory.tmx\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "exports/translation-memory.tmx",
+        "verified/retention-06/translation-memory.tmx"
+      ]
+    }
+  },
+  "s040": {
+    "files": {
+      "i18n/messages-fr.json": "Synthetic content for i18n/messages-fr.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-08/messages-fr.json": "Synthetic content for i18n/messages-fr.json\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "i18n/messages-fr.json"
+      ]
+    }
+  },
+  "s041": {
+    "files": {
+      "inputs/calendar.ics": "Synthetic content for inputs/calendar.ics\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-10/calendar.ics": "Synthetic content for inputs/calendar.ics\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "inputs/calendar.ics"
+      ]
+    }
+  },
+  "s042": {
+    "files": {
+      "i18n/messages-fr.json": "Synthetic content for i18n/messages-fr.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-08/messages-fr.json": "Synthetic content for i18n/messages-fr.json\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-08/messages-fr.json"
+      ]
+    }
+  },
+  "s043": {
+    "files": {
+      "handoff/subtitles.srt": "Synthetic content for handoff/subtitles.srt\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-08/subtitles.srt": "Synthetic content for handoff/subtitles.srt\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/subtitles.srt",
+        "verified/handoff-08/subtitles.srt"
+      ]
+    }
+  },
+  "s044": {
+    "files": {
+      "rules/priority.yaml": "Synthetic content for rules/priority.yaml\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-09/priority.yaml": "Synthetic content for rules/priority.yaml\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "rules/priority.yaml"
+      ]
+    }
+  },
+  "s045": {
+    "files": {
+      "exports/translation-memory.tmx": "Synthetic content for exports/translation-memory.tmx\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "exports/translation-memory.tmx",
+        "verified/retention-06/translation-memory.tmx"
+      ]
+    }
+  },
+  "s046": {
+    "files": {
+      "deliveries/route-17.gpx": "Synthetic content for deliveries/route-17.gpx\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-07/route-17.gpx": "Synthetic content for deliveries/route-17.gpx\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "deliveries/route-17.gpx",
+        "verified/retention-07/route-17.gpx"
+      ]
+    }
+  },
+  "s047": {
+    "files": {
+      "scans/lab-inventory.png": "Synthetic content for scans/lab-inventory.png\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "scans/lab-inventory.png",
+        "verified/retention-08/lab-inventory.png"
+      ]
+    }
+  },
+  "s048": {
+    "files": {
+      "conf/worker.ini": "Synthetic content for conf/worker.ini\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-01/worker.ini": "Synthetic content for conf/worker.ini\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-01/worker.ini"
+      ]
+    }
+  },
+  "s049": {
+    "files": {
+      "exports/march-orders.csv": "Synthetic content for exports/march-orders.csv\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "exports/march-orders.csv",
+        "verified/retention-01/march-orders.csv"
+      ]
+    }
+  },
+  "s050": {
+    "files": {
+      "assets/print-logo.png": "Synthetic content for assets/print-logo.png\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-06/print-logo.png": "Synthetic content for assets/print-logo.png\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "assets/print-logo.png"
+      ]
+    }
+  },
+  "s051": {
+    "files": {
+      "reports/q2-receipts.pdf": "Synthetic content for reports/q2-receipts.pdf\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/retention-04/q2-receipts.pdf": "Synthetic content for reports/q2-receipts.pdf\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "reports/q2-receipts.pdf",
+        "verified/retention-04/q2-receipts.pdf"
+      ]
+    }
+  },
+  "s052": {
+    "files": {
+      "deliveries/route-17.gpx": "Synthetic content for deliveries/route-17.gpx\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "retained_record_readable": [
+        "deliveries/route-17.gpx",
+        "verified/retention-07/route-17.gpx"
+      ]
+    }
+  },
+  "s053": {
+    "files": {
+      "conf/filters.toml": "Synthetic content for conf/filters.toml\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-07/filters.toml": "Synthetic content for conf/filters.toml\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-07/filters.toml"
+      ]
+    }
+  },
+  "s054": {
+    "files": {
+      "assets/light.css": "Synthetic content for assets/light.css\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-02/light.css": "Synthetic content for assets/light.css\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-02/light.css"
+      ]
+    }
+  },
+  "s055": {
+    "files": {
+      "handoff/site-map.xml": "Synthetic content for handoff/site-map.xml\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/site-map.xml",
+        "verified/handoff-04/site-map.xml"
+      ]
+    }
+  },
+  "s056": {
+    "files": {
+      "rules/priority.yaml": "Synthetic content for rules/priority.yaml\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-09/priority.yaml": "Synthetic content for rules/priority.yaml\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-09/priority.yaml"
+      ]
+    }
+  },
+  "s057": {
+    "files": {
+      "conf/worker.ini": "Synthetic content for conf/worker.ini\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-01/worker.ini": "Synthetic content for conf/worker.ini\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "conf/worker.ini"
+      ]
+    }
+  },
+  "s058": {
+    "files": {
+      "queues/nightly-manifest.json": "Synthetic content for queues/nightly-manifest.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "queues/nightly-manifest.json",
+        "verified/handoff-07/nightly-manifest.json"
+      ]
+    }
+  },
+  "s059": {
+    "files": {
+      "handoff/review-board.json": "Synthetic content for handoff/review-board.json\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/handoff-01/review-board.json": "Synthetic content for handoff/review-board.json\n"
+    },
+    "requirements": {
+      "handoff_artifact_readable": [
+        "handoff/review-board.json",
+        "verified/handoff-01/review-board.json"
+      ]
+    }
+  },
+  "s060": {
+    "files": {
+      "templates/summary.txt": "Synthetic content for templates/summary.txt\n",
+      "workspace/status.txt": "Unrelated workspace record\n",
+      "verified/dependency-05/summary.txt": "Synthetic content for templates/summary.txt\n"
+    },
+    "requirements": {
+      "active_workload_input_readable": [
+        "verified/dependency-05/summary.txt"
+      ]
+    }
+  }
+}
