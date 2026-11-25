@@ -9,10 +9,11 @@
   },
   "scenarios_per_arm": 60,
   "system_prompt_sha256": "be8182cecdd27d7e0d08316e323be88412908544ef09e3a0ff67a470cb0882ae",
+  "dataset_hash_normalization": "LF",
   "dataset_sha256": {
-    "filesystem.json": "b687e24856891e79d5833cf9b72228cbf571eb9f0040cb2fdd4bfc2163a6836a",
-    "gold.json": "9671974e65744b7ee010114b1cf5d2dbf217614e659f1fa027b27edad103d2f3",
-    "scenarios.json": "3c1b21598c7cae329b1f0e0a7793652133a0b910e707115c276131614d350a99"
+    "filesystem.json": "3d5eace2178e68d225c788967432e19953d2d5946f1efb673a866e217fc875ad",
+    "gold.json": "9e433141c544525cf8f0f42d2b923c6f0e6bbd0fb092881abbbc65be421d8a0b",
+    "scenarios.json": "c5882ccac02a70127cf5f26dec3c30911547b2d196974cd8c5bb88cae4bb1f10"
   },
   "arms": {
     "A": {

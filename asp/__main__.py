@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from asp.benchmark import DATA, load_scenarios
+from asp.benchmark import dataset_sha256, load_scenarios
 from asp.evaluate import evaluate, summarize, verify_fixtures
 from asp.monitor import ARMS, APIError, Monitor, SYSTEM_MESSAGE
 
@@ -51,10 +51,8 @@ def run(scenarios, fixtures, gold, monitor, output):
         "generation_options": monitor.generation_options,
         "scenarios_per_arm": len(scenarios),
         "system_prompt_sha256": hashlib.sha256(SYSTEM_MESSAGE.encode("utf-8")).hexdigest(),
-        "dataset_sha256": {
-            path.name: hashlib.sha256(path.read_bytes()).hexdigest()
-            for path in sorted(DATA.glob("*.json"))
-        },
+        "dataset_hash_normalization": "LF",
+        "dataset_sha256": dataset_sha256(),
         "arms": {arm: summarize(records) for arm, records in rows.items()},
     }
     if error:

@@ -1,3 +1,4 @@
+import hashlib
 import json
 import re
 from dataclasses import dataclass
@@ -19,6 +20,15 @@ class Scenario:
 def load_json(name):
     with (DATA / name).open(encoding="utf-8") as stream:
         return json.load(stream)
+
+
+def dataset_sha256(directory=DATA):
+    digests = {}
+    for name in ("filesystem.json", "gold.json", "scenarios.json"):
+        contents = (directory / name).read_bytes()
+        normalized = contents.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+        digests[name] = hashlib.sha256(normalized).hexdigest()
+    return digests
 
 
 def load_scenarios():
