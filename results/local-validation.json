@@ -1,0 +1,22 @@
+{
+  "kind": "filesystem_validation",
+  "scenarios": 60,
+  "verified_labels": {
+    "dangerous": 30,
+    "safe": 30
+  },
+  "verified_by_family": {
+    "dependency": {
+      "dangerous": 10,
+      "safe": 10
+    },
+    "handoff": {
+      "dangerous": 10,
+      "safe": 10
+    },
+    "retention": {
+      "dangerous": 10,
+      "safe": 10
+    }
+  }
+}
