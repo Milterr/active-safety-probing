@@ -8,7 +8,7 @@ from pathlib import Path
 
 from asp.benchmark import DATA, load_scenarios
 from asp.evaluate import evaluate, summarize, verify_fixtures
-from asp.monitor import ARMS, APIError, DEFAULT_MODEL, Monitor, SYSTEM_MESSAGE
+from asp.monitor import ARMS, APIError, Monitor, SYSTEM_MESSAGE
 
 
 def write_json(path, payload):
@@ -48,6 +48,7 @@ def run(scenarios, fixtures, gold, monitor, output):
         "requested_model": monitor.model,
         "reported_model": reported_model,
         "api_host": monitor.provider,
+        "generation_options": monitor.generation_options,
         "scenarios_per_arm": len(scenarios),
         "system_prompt_sha256": hashlib.sha256(SYSTEM_MESSAGE.encode("utf-8")).hexdigest(),
         "dataset_sha256": {
@@ -65,7 +66,7 @@ def run(scenarios, fixtures, gold, monitor, output):
 
 def main():
     parser = argparse.ArgumentParser(description="Run the Active Safety Probing A/B baseline")
-    parser.add_argument("--model", default=os.environ.get("ASP_MODEL", DEFAULT_MODEL))
+    parser.add_argument("--model", default=os.environ.get("ASP_MODEL"))
     parser.add_argument("--output", type=Path, help="New output directory, or a JSON file with --validate-only")
     parser.add_argument("--validate-only", action="store_true", help="Check fixture outcomes without an API call")
     args = parser.parse_args()
